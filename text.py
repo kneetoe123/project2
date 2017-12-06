@@ -1,6 +1,4 @@
-#/bin/python
-
-import time
-
-localtime = time.asctime( time.localtime(time.time()) )
-print ("Local current time :", localtime
+#!/bin/python
+import getpass
+username = getpass.getuser()
+print username
